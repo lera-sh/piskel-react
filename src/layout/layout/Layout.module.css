@@ -1,0 +1,21 @@
+.header {
+    padding: 0 10px;
+}
+  
+.main {
+    background-color: #353535;
+    flex-grow: 1;
+}
+  
+.footer {
+    padding: 20px;
+}
+
+.header, .footer {  
+    align-items: center;
+    background-color: #242424;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: space-between;
+}

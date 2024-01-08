@@ -1,0 +1,17 @@
+.nav {
+    padding-top: 5px;
+}
+  
+.item {
+    background-color: #FFDD00;
+    border-radius: 5px;
+    color: #000;
+    margin: 4px;
+    padding: 3px 20px;
+    transition: .5s;
+}
+  
+.item:hover {
+    background-color: #FFF8A8;
+    color: #303030;
+}

@@ -1,0 +1,31 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputWidth {
+    accent-color: #FFFFFF;
+}
+
+.inputChange {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.inputChange::-webkit-color-swatch {
+    border-radius: 15px;
+    border: none;
+}
+
+.inputChange::-moz-color-swatch {
+    border-radius: 15px;
+    border: none;
+}
