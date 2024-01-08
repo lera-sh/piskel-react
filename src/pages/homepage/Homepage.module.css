@@ -1,0 +1,40 @@
+.page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 86px;
+}
+
+.title {
+    line-height: 35px;
+    max-width: 700px;
+    padding-bottom: 20px;
+}
+
+.description {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    background-color: #FFDD00;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 23px;
+    margin: 10px 10px 29px;
+    padding: 9px 30px;
+    transition: .5s;
+}
+  
+.button:hover {
+    background-color: #DFC204;
+    color: #303030;
+}
+
+.list {
+    background-color: #606060;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+}

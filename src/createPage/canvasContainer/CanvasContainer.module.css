@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    height: 600px;
+    width: 600px;
+}
+
+.canvas {
+    background-color: #545454;
+    border: 2px solid #000;
+    height: 600px;
+    width: 600px;
+    image-rendering: pixelated;
+}
+
+.selection {
+    background-color: rgba(184, 228, 254, .25);
+    border: 2px solid rgba(184, 228, 254, .75);
+    position: absolute;
+}
